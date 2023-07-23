@@ -1,0 +1,33 @@
+.blog {
+        display: flex;
+        flex-direction: row;
+}
+
+.posts {
+        width: 50%;
+        cursor: pointer;
+}
+
+.post {
+        width: 50%;
+        cursor: pointer;
+        padding: 0% 10px;
+        position: fixed;
+
+}
+
+ul {
+        list-style-type: none;
+        padding: 0;
+        width: 200px;
+}
+
+li {
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 4px;
+}
+
+li:hover {
+        background-color: #eee;
+}
